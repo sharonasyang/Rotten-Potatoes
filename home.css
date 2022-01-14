@@ -1,0 +1,98 @@
+html{
+ scroll-behavior: smooth;
+ font-family: 'Raleway', sans-serif;
+}
+
+h1{
+
+  color: blue;
+  font-family: 'Raleway', sans-serif;
+  font-size: 30px;
+  letter-spacing: 5px;
+  text-align: center;
+  font-weight: bold;
+  position:relative;
+  top: -120px;
+}
+
+scroll-page {
+display: flex;
+align-items: baseline;
+justify-content: center;
+height: 700%;
+font-size: 5em;
+overflow: auto;
+font-family: 'Raleway', sans-serif;
+color: white;
+letter-spacing: 50px;
+font-style: italic;
+font-weight: 100;
+}
+
+.main {
+
+font-family: 'Raleway', sans-serif;
+background: black;
+text-align: center;
+position:relative;
+top: -55px;
+}
+
+::-webkit-scrollbar{
+ display: none;
+}
+
+body {
+background-color: black;
+margin:auto;
+}
+
+.topnav {
+  font-family: 'Raleway', sans-serif;
+background-color: black;
+margin: 0;
+padding: 0;
+margin-top: 100px;
+position: relative;
+top: -120px;
+letter-spacing: 2px;
+}
+
+.topnav a {
+padding: 14px 16px;
+color: white;
+margin-left: 7px;
+float: left;
+font-size: 18px;
+}
+
+.topnav a:hover {
+font-weight: 700;
+text-decoration: none;
+}
+
+
+
+#movie-name {
+position: relative;
+top: 10px;
+margin-right: 7px;
+float: right;
+}
+
+#searchButton {
+position:relative;
+height: 2%;
+width: 2%;
+filter: invert(1);
+top: 15px;
+margin-right: 15px;
+float: right;
+margin-left: 0;
+}
+
+#carouselExampleCaptions{
+image-rendering: pixelated;
+position: relative;
+top: -110px;
+}
